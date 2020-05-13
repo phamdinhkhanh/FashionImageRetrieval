@@ -7,7 +7,7 @@ Cách thức chia sao cho tỷ lệ train/validation/test là bằng nhau giữa
 
 # 2. Các files cần chuẩn bị
 
-* dictionary.txt lưu giữ index của các category:
+## 2.1. dictionary.txt lưu giữ index của các category:
 VD: Model của chúng ta có 3 nhãn: tshirt, trouser, boot. Khi đó các dòng của file dictionary.txt sẽ là:
 
 tshirt 0
@@ -16,7 +16,7 @@ boot 2
 
 Tuân theo cấu trúc mỗi dòng: category_name, category_index
 
-* list_image_cate.txt xác định địa chỉ folder link tới hình ảnh và category:
+## 2.2. list_image_cate.txt xác định địa chỉ folder link tới hình ảnh và category:
 
 cấu trúc: `image_link category_index`
 Trong đó:
@@ -29,7 +29,7 @@ VD:
 ...
 ./boot/0002.jpg 2
 
-* train_test_val.txt xác định tập train/validation/test có cấu trúc như sau:
+## 2.3. train_test_val.txt xác định tập train/validation/test có cấu trúc như sau:
 
 Cấu trúc: `image_link, train_type`
 
