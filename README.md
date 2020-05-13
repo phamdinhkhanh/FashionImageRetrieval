@@ -11,7 +11,9 @@ Cách thức chia sao cho tỷ lệ train/validation/test là bằng nhau giữa
 VD: Model của chúng ta có 3 nhãn: tshirt, trouser, boot. Khi đó các dòng của file dictionary.txt sẽ là:
 
 tshirt 0
+
 trouser 1
+
 boot 2
 
 Tuân theo cấu trúc mỗi dòng: category_name, category_index
@@ -26,7 +28,9 @@ Trong đó:
 VD: 
 
 ./trouser/0001.jpg 1
+
 ...
+
 ./boot/0002.jpg 2
 
 ## 2.3. train_test_val.txt xác định tập train/validation/test có cấu trúc như sau:
@@ -36,8 +40,11 @@ Cấu trúc: `image_link, train_type`
 VD:
 
 ./trouser/0001.jpg train
+
 ./trouser/0001.jpg test
+
 ...
+
 ./boot/0002.jpg validation
 
 
