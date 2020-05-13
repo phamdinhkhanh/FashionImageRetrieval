@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 1. Cấu trúc dữ liệu
 
 Chúng ta sẽ chia folder thành 3 phần, 1 phần cho train, 1 phần cho test và 1 phần cho validation.
@@ -49,6 +48,4 @@ Trong đó:
 # 3. Giải nén folder:
 
 extract folder `train.zip` vào folder train.
-=======
-# FashionImageRetrieval
->>>>>>> b154516ed78826f0c5f2fe4172dfb72a4058d11a
+
